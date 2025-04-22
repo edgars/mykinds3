@@ -1,15 +1,31 @@
 {
   "version": 2,
+  "scripts": {
+  "vercel-build": "apt-get update && apt-get install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev && npm install"
+},
   "builds": [
     {
-      "src": "src/app/api/generate-image/route.ts",
-      "use": "@vercel/node"
+      "src": "package.json",
+      "use": "@vercel/next"
     }
   ],
   "routes": [
     {
-      "src": "/api/generate-image",
-      "dest": "src/app/api/generate-image/route.ts"
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
-  ]
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "NODE_OPTIONS": "--max-old-space-size=4096"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_API_URL": "https://mykinds3.vercel.app"
+    }
+  }
 }
