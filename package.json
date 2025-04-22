@@ -1,0 +1,28 @@
+{
+  "name": "image-generation-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@uploadthing/react": "^6.0.2",
+    "canvas": "^2.11.2",
+    "marked": "^11.1.1",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanitize-html": "^2.11.0",
+    "sharp": "^0.33.1",
+    "uploadthing": "^6.1.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "@types/sanitize-html": "^2.9.5",
+    "typescript": "^5.3.3"
+  }
+}
