@@ -1,0 +1,609 @@
+{
+  "zipName": "Noto_Sans.zip",
+  "manifest": {
+    "files": [
+      {
+        "filename": "OFL.txt",
+        "contents": "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)\r\n\r\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis license is copied below, and is also available with a FAQ at:\r\nhttps://openfontlicense.org\r\n\r\n\r\n-----------------------------------------------------------\r\nSIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\r\n-----------------------------------------------------------\r\n\r\nPREAMBLE\r\nThe goals of the Open Font License (OFL) are to stimulate worldwide\r\ndevelopment of collaborative font projects, to support the font creation\r\nefforts of academic and linguistic communities, and to provide a free and\r\nopen framework in which fonts may be shared and improved in partnership\r\nwith others.\r\n\r\nThe OFL allows the licensed fonts to be used, studied, modified and\r\nredistributed freely as long as they are not sold by themselves. The\r\nfonts, including any derivative works, can be bundled, embedded, \r\nredistributed and/or sold with any software provided that any reserved\r\nnames are not used by derivative works. The fonts and derivatives,\r\nhowever, cannot be released under any other type of license. The\r\nrequirement for fonts to remain under this license does not apply\r\nto any document created using the fonts or their derivatives.\r\n\r\nDEFINITIONS\r\n\"Font Software\" refers to the set of files released by the Copyright\r\nHolder(s) under this license and clearly marked as such. This may\r\ninclude source files, build scripts and documentation.\r\n\r\n\"Reserved Font Name\" refers to any names specified as such after the\r\ncopyright statement(s).\r\n\r\n\"Original Version\" refers to the collection of Font Software components as\r\ndistributed by the Copyright Holder(s).\r\n\r\n\"Modified Version\" refers to any derivative made by adding to, deleting,\r\nor substituting -- in part or in whole -- any of the components of the\r\nOriginal Version, by changing formats or by porting the Font Software to a\r\nnew environment.\r\n\r\n\"Author\" refers to any designer, engineer, programmer, technical\r\nwriter or other person who contributed to the Font Software.\r\n\r\nPERMISSION \u0026 CONDITIONS\r\nPermission is hereby granted, free of charge, to any person obtaining\r\na copy of the Font Software, to use, study, copy, merge, embed, modify,\r\nredistribute, and sell modified and unmodified copies of the Font\r\nSoftware, subject to the following conditions:\r\n\r\n1) Neither the Font Software nor any of its individual components,\r\nin Original or Modified Versions, may be sold by itself.\r\n\r\n2) Original or Modified Versions of the Font Software may be bundled,\r\nredistributed and/or sold with any software, provided that each copy\r\ncontains the above copyright notice and this license. These can be\r\nincluded either as stand-alone text files, human-readable headers or\r\nin the appropriate machine-readable metadata fields within text or\r\nbinary files as long as those fields can be easily viewed by the user.\r\n\r\n3) No Modified Version of the Font Software may use the Reserved Font\r\nName(s) unless explicit written permission is granted by the corresponding\r\nCopyright Holder. This restriction only applies to the primary font name as\r\npresented to the users.\r\n\r\n4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\r\nSoftware shall not be used to promote, endorse or advertise any\r\nModified Version, except to acknowledge the contribution(s) of the\r\nCopyright Holder(s) and the Author(s) or with their explicit written\r\npermission.\r\n\r\n5) The Font Software, modified or unmodified, in part or in whole,\r\nmust be distributed entirely under this license, and must not be\r\ndistributed under any other license. The requirement for fonts to\r\nremain under this license does not apply to any document created\r\nusing the Font Software.\r\n\r\nTERMINATION\r\nThis license becomes null and void if any of the above conditions are\r\nnot met.\r\n\r\nDISCLAIMER\r\nTHE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\r\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\r\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\r\nOF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\r\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\r\nINCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER DEALINGS IN THE FONT SOFTWARE.\r\n"
+      },
+      {
+        "filename": "README.txt",
+        "contents": "Noto Sans Variable Font\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\nThis download contains Noto Sans as both variable fonts and static fonts.\n\nNoto Sans is a variable font with these axes:\n  wdth\n  wght\n\nThis means all the styles are contained in these files:\n  NotoSans-VariableFont_wdth,wght.ttf\n  NotoSans-Italic-VariableFont_wdth,wght.ttf\n\nIf your app fully supports variable fonts, you can now pick intermediate styles\nthat aren’t available as static fonts. Not all apps support variable fonts, and\nin those cases you can use the static font files for Noto Sans:\n  static/NotoSans_ExtraCondensed-Thin.ttf\n  static/NotoSans_ExtraCondensed-ExtraLight.ttf\n  static/NotoSans_ExtraCondensed-Light.ttf\n  static/NotoSans_ExtraCondensed-Regular.ttf\n  static/NotoSans_ExtraCondensed-Medium.ttf\n  static/NotoSans_ExtraCondensed-SemiBold.ttf\n  static/NotoSans_ExtraCondensed-Bold.ttf\n  static/NotoSans_ExtraCondensed-ExtraBold.ttf\n  static/NotoSans_ExtraCondensed-Black.ttf\n  static/NotoSans_Condensed-Thin.ttf\n  static/NotoSans_Condensed-ExtraLight.ttf\n  static/NotoSans_Condensed-Light.ttf\n  static/NotoSans_Condensed-Regular.ttf\n  static/NotoSans_Condensed-Medium.ttf\n  static/NotoSans_Condensed-SemiBold.ttf\n  static/NotoSans_Condensed-Bold.ttf\n  static/NotoSans_Condensed-ExtraBold.ttf\n  static/NotoSans_Condensed-Black.ttf\n  static/NotoSans_SemiCondensed-Thin.ttf\n  static/NotoSans_SemiCondensed-ExtraLight.ttf\n  static/NotoSans_SemiCondensed-Light.ttf\n  static/NotoSans_SemiCondensed-Regular.ttf\n  static/NotoSans_SemiCondensed-Medium.ttf\n  static/NotoSans_SemiCondensed-SemiBold.ttf\n  static/NotoSans_SemiCondensed-Bold.ttf\n  static/NotoSans_SemiCondensed-ExtraBold.ttf\n  static/NotoSans_SemiCondensed-Black.ttf\n  static/NotoSans-Thin.ttf\n  static/NotoSans-ExtraLight.ttf\n  static/NotoSans-Light.ttf\n  static/NotoSans-Regular.ttf\n  static/NotoSans-Medium.ttf\n  static/NotoSans-SemiBold.ttf\n  static/NotoSans-Bold.ttf\n  static/NotoSans-ExtraBold.ttf\n  static/NotoSans-Black.ttf\n  static/NotoSans_ExtraCondensed-ThinItalic.ttf\n  static/NotoSans_ExtraCondensed-ExtraLightItalic.ttf\n  static/NotoSans_ExtraCondensed-LightItalic.ttf\n  static/NotoSans_ExtraCondensed-Italic.ttf\n  static/NotoSans_ExtraCondensed-MediumItalic.ttf\n  static/NotoSans_ExtraCondensed-SemiBoldItalic.ttf\n  static/NotoSans_ExtraCondensed-BoldItalic.ttf\n  static/NotoSans_ExtraCondensed-ExtraBoldItalic.ttf\n  static/NotoSans_ExtraCondensed-BlackItalic.ttf\n  static/NotoSans_Condensed-ThinItalic.ttf\n  static/NotoSans_Condensed-ExtraLightItalic.ttf\n  static/NotoSans_Condensed-LightItalic.ttf\n  static/NotoSans_Condensed-Italic.ttf\n  static/NotoSans_Condensed-MediumItalic.ttf\n  static/NotoSans_Condensed-SemiBoldItalic.ttf\n  static/NotoSans_Condensed-BoldItalic.ttf\n  static/NotoSans_Condensed-ExtraBoldItalic.ttf\n  static/NotoSans_Condensed-BlackItalic.ttf\n  static/NotoSans_SemiCondensed-ThinItalic.ttf\n  static/NotoSans_SemiCondensed-ExtraLightItalic.ttf\n  static/NotoSans_SemiCondensed-LightItalic.ttf\n  static/NotoSans_SemiCondensed-Italic.ttf\n  static/NotoSans_SemiCondensed-MediumItalic.ttf\n  static/NotoSans_SemiCondensed-SemiBoldItalic.ttf\n  static/NotoSans_SemiCondensed-BoldItalic.ttf\n  static/NotoSans_SemiCondensed-ExtraBoldItalic.ttf\n  static/NotoSans_SemiCondensed-BlackItalic.ttf\n  static/NotoSans-ThinItalic.ttf\n  static/NotoSans-ExtraLightItalic.ttf\n  static/NotoSans-LightItalic.ttf\n  static/NotoSans-Italic.ttf\n  static/NotoSans-MediumItalic.ttf\n  static/NotoSans-SemiBoldItalic.ttf\n  static/NotoSans-BoldItalic.ttf\n  static/NotoSans-ExtraBoldItalic.ttf\n  static/NotoSans-BlackItalic.ttf\n\nGet started\n-----------\n\n1. Install the font files you want to use\n\n2. Use your app\u0027s font picker to view the font family and all the\navailable styles\n\nLearn more about variable fonts\n-------------------------------\n\n  https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts\n  https://variablefonts.typenetwork.com\n  https://medium.com/variable-fonts\n\nIn desktop apps\n\n  https://theblog.adobe.com/can-variable-fonts-illustrator-cc\n  https://helpx.adobe.com/nz/photoshop/using/fonts.html#variable_fonts\n\nOnline\n\n  https://developers.google.com/fonts/docs/getting_started\n  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide\n  https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/variable-fonts\n\nInstalling fonts\n\n  MacOS: https://support.apple.com/en-us/HT201749\n  Linux: https://www.google.com/search?q\u003dhow+to+install+a+font+on+gnu%2Blinux\n  Windows: https://support.microsoft.com/en-us/help/314960/how-to-install-or-remove-a-font-in-windows\n\nAndroid Apps\n\n  https://developers.google.com/fonts/docs/android\n  https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts\n\nLicense\n-------\nPlease read the full license text (OFL.txt) to understand the permissions,\nrestrictions and requirements for usage, redistribution, and modification.\n\nYou can use them in your products \u0026 projects – print or digital,\ncommercial or otherwise.\n\nThis isn\u0027t legal advice, please consider consulting a lawyer and see the full\nlicense for all details.\n"
+      }
+    ],
+    "fileRefs": [
+      {
+        "filename": "static/NotoSans_ExtraCondensed-Thin.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPMrcz6L1SoM-jCpoiyD9At9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-ExtraLight.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPMrcz6L1SoM-jCpoiyB9A99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-Light.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPMrcz6L1SoM-jCpoiyCjA99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-Regular.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPMrcz6L1SoM-jCpoiyD9A99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-Medium.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPMrcz6L1SoM-jCpoiyDPA99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-SemiBold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPMrcz6L1SoM-jCpoiyAjBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-Bold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPMrcz6L1SoM-jCpoiyAaBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-ExtraBold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPMrcz6L1SoM-jCpoiyB9BN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-Black.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPMrcz6L1SoM-jCpoiyBUBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-Thin.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPCbcz6L1SoM-jCpoiyD9At9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-ExtraLight.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPCbcz6L1SoM-jCpoiyB9A99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-Light.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPCbcz6L1SoM-jCpoiyCjA99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-Regular.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPCbcz6L1SoM-jCpoiyD9A99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-Medium.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPCbcz6L1SoM-jCpoiyDPA99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-SemiBold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPCbcz6L1SoM-jCpoiyAjBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-Bold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPCbcz6L1SoM-jCpoiyAaBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-ExtraBold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPCbcz6L1SoM-jCpoiyB9BN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-Black.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPCbcz6L1SoM-jCpoiyBUBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-Thin.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPB_cz6L1SoM-jCpoiyD9At9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-ExtraLight.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPB_cz6L1SoM-jCpoiyB9A99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-Light.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPB_cz6L1SoM-jCpoiyCjA99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-Regular.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPB_cz6L1SoM-jCpoiyD9A99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-Medium.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPB_cz6L1SoM-jCpoiyDPA99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-SemiBold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPB_cz6L1SoM-jCpoiyAjBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-Bold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPB_cz6L1SoM-jCpoiyAaBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-ExtraBold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPB_cz6L1SoM-jCpoiyB9BN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-Black.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPB_cz6L1SoM-jCpoiyBUBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-Thin.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9At9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-ExtraLight.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9A99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-Light.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyCjA99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-Regular.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-Medium.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyDPA99d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-SemiBold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-Bold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-ExtraBold.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9BN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-Black.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyBUBN9d41P6zHtY.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-ThinItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCej-vHtVtX57DGjDU1QDcf6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-ExtraLightItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCej-vHtVtX57DGjDU1QLce6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-LightItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCej-vHtVtX57DGjDU1QGke6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-Italic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCej-vHtVtX57DGjDU1QDce6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-MediumItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCej-vHtVtX57DGjDU1QAUe6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-SemiBoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCej-vHtVtX57DGjDU1QOkZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-BoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCej-vHtVtX57DGjDU1QNAZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-ExtraBoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCej-vHtVtX57DGjDU1QLcZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_ExtraCondensed-BlackItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCej-vHtVtX57DGjDU1QJ4Z6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-ThinItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeY-vHtVtX57DGjDU1QDcf6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-ExtraLightItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeY-vHtVtX57DGjDU1QLce6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-LightItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeY-vHtVtX57DGjDU1QGke6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-Italic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeY-vHtVtX57DGjDU1QDce6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-MediumItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeY-vHtVtX57DGjDU1QAUe6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-SemiBoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeY-vHtVtX57DGjDU1QOkZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-BoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeY-vHtVtX57DGjDU1QNAZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-ExtraBoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeY-vHtVtX57DGjDU1QLcZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_Condensed-BlackItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeY-vHtVtX57DGjDU1QJ4Z6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-ThinItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeWuvHtVtX57DGjDU1QDcf6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-ExtraLightItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeWuvHtVtX57DGjDU1QLce6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-LightItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeWuvHtVtX57DGjDU1QGke6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-Italic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeWuvHtVtX57DGjDU1QDce6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-MediumItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeWuvHtVtX57DGjDU1QAUe6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-SemiBoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeWuvHtVtX57DGjDU1QOkZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-BoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeWuvHtVtX57DGjDU1QNAZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-ExtraBoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeWuvHtVtX57DGjDU1QLcZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans_SemiCondensed-BlackItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCeWuvHtVtX57DGjDU1QJ4Z6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-ThinItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDcf6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-ExtraLightItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLce6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-LightItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QGke6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-Italic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDce6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-MediumItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QAUe6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-SemiBoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QOkZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-BoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QNAZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-ExtraBoldItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLcZ6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "static/NotoSans-BlackItalic.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QJ4Z6VfYyWtY1rI.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "NotoSans-VariableFont_wdth,wght.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      },
+      {
+        "filename": "NotoSans-Italic-VariableFont_wdth,wght.ttf",
+        "url": "https://fonts.gstatic.com/s/notosans/v39/o-0OIpQlx3QUlC5A4PNr4DRFSfiM7HBj.ttf",
+        "date": {
+          "seconds": 1741663338,
+          "nanos": 132000000
+        }
+      }
+    ]
+  }
+}

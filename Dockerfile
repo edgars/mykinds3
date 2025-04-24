@@ -1,82 +1,100 @@
-# Use Node.js LTS version with Linux platform
-FROM --platform=linux/amd64 node:20-alpine AS base
+FROM node:20-slim AS base
 
-# Install dependencies required for sharp and canvas
-RUN apk add --no-cache \
+# Install dependencies required for canvas and sharp
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libcairo2-dev \
+    libpango1.0-dev \
+    libjpeg-dev \
+    libgif-dev \
+    librsvg2-dev \
     python3 \
-    make \
-    g++ \
-    pkgconfig \
-    pixman-dev \
-    cairo-dev \
-    pango-dev \
-    libjpeg-turbo-dev \
-    giflib-dev \
-    librsvg-dev \
-    && npm install -g node-gyp
+    pkg-config \
+    --no-install-recommends \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
+# Install dependencies
+FROM base AS deps
+COPY package.json package-lock.json* ./
 
-# Install dependencies with platform-specific flags
-RUN npm ci --platform=linux --arch=x64
-
-# Copy the rest of the application
-COPY . .
-
-# Rebuild canvas for Linux target architecture
-RUN npm rebuild canvas --build-from-source --platform=linux --arch=x64
+# Install dependencies
+RUN npm ci
 
 # Build the application
+FROM base AS builder
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+
+# Create a mock module for canvas during build
+RUN mkdir -p /app/mocks/canvas && \
+    echo 'module.exports = { createCanvas: () => ({ getContext: () => ({}) }); };' > /app/mocks/canvas/index.js && \
+    echo '{ "name": "canvas", "version": "2.11.2" }' > /app/mocks/canvas/package.json
+
+# Create public directory if it doesn't exist
+RUN mkdir -p /app/public
+
+# Set environment variables for the build
+ENV NEXT_TELEMETRY_DISABLED=1
+ENV NODE_ENV=production
+ENV NODE_PATH=/app/mocks:/app/node_modules
+
+# Make sure Next.js is configured for standalone output
+RUN if ! grep -q "output: 'standalone'" next.config.js; then \
+      echo "ERROR: Your next.config.js must include 'output: \"standalone\"' to build with Docker."; \
+      echo "Please add 'output: \"standalone\"' to the config object in next.config.js"; \
+      exit 1; \
+    fi
+
+# Run the build
 RUN npm run build
 
 # Production image
-FROM --platform=linux/amd64 node:20-alpine AS production
-
-# Install production dependencies
-RUN apk add --no-cache \
-    python3 \
-    make \
-    g++ \
-    pkgconfig \
-    pixman-dev \
-    cairo-dev \
-    pango-dev \
-    libjpeg-turbo-dev \
-    giflib-dev \
-    librsvg-dev \
-    && npm install -g node-gyp
-
-WORKDIR /app
-
-# Copy built application and production dependencies
-COPY --from=base /app/next.config.js ./
-COPY --from=base /app/.next/standalone ./
-COPY --from=base /app/.next/static ./.next/static
-COPY --from=base /app/.next/server ./.next/server
-COPY --from=base /app/node_modules ./node_modules
-
-# Create public directory if it doesn't exist
-RUN mkdir -p public
-
-# Rebuild canvas for Linux target architecture
-RUN npm rebuild canvas --build-from-source --platform=linux --arch=x64
-
-# Set environment variables
+FROM base AS runner
 ENV NODE_ENV=production
-ENV PORT=3000
-ENV NODE_OPTIONS="--max-old-space-size=4096"
-ENV HOST=0.0.0.0
+ENV NEXT_TELEMETRY_DISABLED=1
 
-# Expose the port
+# Install canvas dependencies in the production image
+RUN apt-get update && apt-get install -y \
+    libcairo2-dev \
+    libpango1.0-dev \
+    libjpeg-dev \
+    libgif-dev \
+    librsvg2-dev \
+    --no-install-recommends \
+    && rm -rf /var/lib/apt/lists/*
+
+# Add non-root user for security
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 nextjs
+
+# Create public directory in the runner
+RUN mkdir -p /app/public
+
+# Copy only necessary files
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+COPY --from=builder /app/fonts ./fonts
+COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/package-lock.json* ./package-lock.json*
+
+# Install only the canvas package in the production image
+RUN npm install --no-save canvas
+
+# Set correct permissions
+RUN chown -R nextjs:nodejs /app
+
+# Switch to non-root user
+USER nextjs
+
+# Expose port
 EXPOSE 3000
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD wget --no-verbose --tries=1 --spider http://localhost:3000/api/health || exit 1
+# Set hostname
+ENV HOSTNAME="0.0.0.0"
 
-# Start the application
+# Start the server
 CMD ["node", "server.js"] 

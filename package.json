@@ -1,40 +1,32 @@
 {
-  "name": "mykinds3",
+  "name": "image-generation-api",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "@effect/schema": "^0.68.18",
-    "@uploadthing/react": "^6.0.0",
-    "@uploadthing/server": "^6.0.0",
+    "@types/markdown-it": "^14.1.2",
+    "@uploadthing/react": "^6.0.2",
     "canvas": "^2.11.2",
-    "marked": "^9.1.5",
-    "next": "14.1.0",
+    "html-to-image": "^1.11.13",
+    "markdown-it": "^14.1.0",
+    "marked": "^11.2.0",
+    "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sanitize-html": "^2.11.0",
-    "sharp": "^0.33.2",
-    "uploadthing": "^6.0.0",
+    "sharp": "^0.33.1",
+    "simple-markdown": "^0.7.3",
+    "uploadthing": "^6.1.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "@types/sanitize-html": "^2.11.0",
-    "autoprefixer": "^10.4.17",
-    "eslint": "^8.56.0",
-    "eslint-config-next": "14.1.0",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "@types/sanitize-html": "^2.9.5",
     "typescript": "^5.3.3"
-  },
-  "engines": {
-    "node": ">=20.0.0"
   }
 }
