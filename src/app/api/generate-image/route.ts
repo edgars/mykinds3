@@ -50,6 +50,26 @@ if (process.env.NODE_ENV === 'production') {
       canvasModule.registerFont(path.join(process.cwd(), 'fonts/NotoSans-VariableFont_wdth,wght.ttf'), { 
         family: 'Noto Sans Variable'
       });
+
+      // Register Montserrat fonts for overlay text
+      canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-Light.ttf'), { 
+        family: 'Montserrat',
+        weight: '300'
+      });
+      canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-Regular.ttf'), { 
+        family: 'Montserrat'
+      });
+      canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-Bold.ttf'), { 
+        family: 'Montserrat', 
+        weight: 'bold'
+      });
+      canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-Italic.ttf'), { 
+        family: 'Montserrat', 
+        style: 'italic'
+      });
+      canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-VariableFont_wght.ttf'), { 
+        family: 'Montserrat Variable'
+      });
       console.log("[Text Rendering] Fonts loaded successfully");
     }
   } catch (e) {
@@ -76,6 +96,26 @@ if (process.env.NODE_ENV === 'production') {
     });
     canvasModule.registerFont(path.join(process.cwd(), 'fonts/NotoSans-VariableFont_wdth,wght.ttf'), { 
       family: 'Noto Sans Variable'
+    });
+
+    // Register Montserrat fonts for overlay text
+    canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-Light.ttf'), { 
+      family: 'Montserrat',
+      weight: '300'
+    });
+    canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-Regular.ttf'), { 
+      family: 'Montserrat'
+    });
+    canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-Bold.ttf'), { 
+      family: 'Montserrat', 
+      weight: 'bold'
+    });
+    canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-Italic.ttf'), { 
+      family: 'Montserrat', 
+      style: 'italic'
+    });
+    canvasModule.registerFont(path.join(process.cwd(), 'fonts/Montserrat-VariableFont_wght.ttf'), { 
+      family: 'Montserrat Variable'
     });
     console.log("[Text Rendering] Fonts loaded successfully");
   } catch (e) {
@@ -158,7 +198,7 @@ function renderBasicText(ctx: any, text: string, x: number, y: number, fontSize:
   
   // Set base font properties
   ctx.textBaseline = 'top';
-  ctx.font = `normal ${fontSize}px 'Noto Sans Variable', 'Noto Sans', Arial, sans-serif`;
+  ctx.font = `300 ${fontSize}px 'Montserrat', 'Montserrat Variable', Arial, sans-serif`;
   ctx.textAlign = "center"; // Force center alignment
   
   // Process the text line by line
